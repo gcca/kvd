@@ -1,0 +1,10 @@
+Checks: >
+  bugprone-*,-bugprone-easily-swappable-parameters,
+  cppcoreguidelines-*,-cppcoreguidelines-owning-memory,-cppcoreguidelines-avoid-non-const-global-variables,
+  cert-*,-cert-err58-cpp,
+  performace-*,portability-*,concurrency-*,
+  misc-*,-misc-non-private-member-variables-in-classes,
+  readability-*,-readability-identifier-length,-readability-isolate-declaration,
+  modernize-*,-modernize-use-trailing-return-type,
+  clang-*,google-*,-google-build-using-namespace,
+  llvm-*,-llvm-header-guard
